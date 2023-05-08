@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Cine Paola</title>
+        <link href="./assets/css/normaliza.css" rel="stylesheet" />
+        <link href="./assets/css/reset.css" rel="stylesheet" />
+        <link href="./assets/css/cabecalho.css" rel="stylesheet" />
+        <link href="./assets/css/menu/menu-lista.css" rel="stylesheet" />
+        <link href="./assets/css/menu/menu-item.css" rel="stylesheet" />
+        <link href="./assets/css/menu/menu-link.css" rel="stylesheet" />
+        <link href="./assets/css/banner/banner.css" rel="stylesheet" />
+        <link href="./assets/css/banner/banner-imagem.css" rel="stylesheet" />
+        <link href="./assets/css/quemSomos/quemSomos.css" rel="stylesheet" />
+        <link href="./assets/css/quemSomos/quemSomos-descricao.css" rel="stylesheet" />
+        <link href="./assets/css/rodape.css" rel="stylesheet" />
+        <link href="./assets/css/cadastrar/botao/fabricaçãolog.css" rel="stylesheet" />
+        <link href="./assets/css/cadastrar/corpo.css" rel="stylesheet" />
+        <link href="./assets/css/membros.css" rel="stylesheet" />
+        <link href="./assets/css/membro/membro-imagem.css" rel="stylesheet" />
+        <link href="./assets/css/membro/membro-titulo.css" rel="stylesheet" />
+        <link href="./assets/css/membro/membro.css" rel="stylesheet" />
+        <link href="./assets/css/fabricacao.css" rel="stylesheet" />
+        <link href="./assets/css/fabricacao/fabricacao.css" rel="stylesheet" />
+        <link href="./assets/css/cadasts.css" rel="stylesheet" />
+        <link href="./assets/css/cadastrar/cadast.css" rel="stylesheet" />
+       
+
+    </head>
+
+    <body>
+        <header class="cabecalho">
+            <img class="logo" src="./assets/img/fundo.png">
+            <nav class="menu">
+                <ul class="menu__lista">
+                    <li class="menu__item"><a class="menu__link" href="index.html">Início</a></li>
+                    <li class="menu__item"><a class="menu__link" href="quemsomos.html">Quem Somos</a></li>
+                    <li class="menu__item"><a class="menu__link" href="login.html">Entrar</a></li>
+                    <li class="menu__item"><a class="menu__link ativo" href="cadastrar.html">Cadastrar</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="banner">
+            <img class="banner__imagem" src="./assets/img/cinema.png">
+        </section>
+        <section class="quem__somos">
+            <p class="quem-somos__descricao">Eeei, você ai... </p>
+            <p class="quem-somos__descricao">Ainda não faz parte do Cine Paola ? Corre que está perdendo tempo hein!!</p>
+            <p class="quem-somos__descricao">Se cadastre para fazer parte de nossa plataforma! Filmes para todas as horas e
+                claro diversão garantida!!</p>
+            <h2>Dados Pessoais:</h2>
+        </section>
+        <main>
+            <form>
+                <div class="cadasts">
+                    <div class="cadast">
+                        <label for="nome">Nome Completo:</label>
+                        <input type="text" id="nome" class="corpo__casts" required>
+
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" class="corpo__casts" required>
+
+                        <label for="cpf">CPF:</label>
+                        <input type="number" id="cpf" class="corpo__casts" required placeholder="XXX.XXX.XXX-XX">
+
+                        <label for="telefone">Telefone:</label>
+                        <input type="tel" id="telefone" class="corpo__casts" placeholder="(XX)XXXXX-XXXX">
+
+                        <label><input type="checkbox">Deseja receber novidades por email?</label>
+                    </div>
+                </div>
+            </form>
+            <section class="quem__somos">
+                <p class="quem-somos__descricao">Agora escolha o plano que melhor adequa a você;</p>
+                <p class="quem-somos__descricao">Os planos estão logo aqui embaixo!</p>
+            </section>
+            <fieldset>
+                <div class="membros">
+                    <div class="membro">
+                        <div class="membro__imagem membro__imagem--planoind"></div>
+                        <label for="radio-planofam"><input type="radio" name="contato" checked>Plano Individual </label>
+                    </div>
+                    <div class="membro">
+                        <div class="membro__imagem membro__imagem--planoamg"></div>
+                        <label for="radio-planoamg"><input type="radio" name="contato" checked>Plano Amigo </label>
+                    </div>
+                    <div class="membro">
+                        <div class="membro__imagem membro__imagem--planofam"></div>
+                        <label for="radio-planofam"><input type="radio" name="contato" checked>Plano Familia </label>
+                    </div>
+                </div>
+            </fieldset>
+            <form>
+                <label for="radio-email"></label>
+                <input type="submit" value="Entrar" class="enviar">
+            </form>
+        
+        </main>
+        <footer class="rodape">
+            <img class="logo" src="./assets/img/fundo.png">
+            <h4 class="copyright"> &copy;Filmes Cine Paola</h4>
+        </footer>
+    </body>
+
+</html>

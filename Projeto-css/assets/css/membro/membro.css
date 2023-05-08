@@ -1,0 +1,4 @@
+.membro {
+    display: flex;
+    flex-direction: column;
+}

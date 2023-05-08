@@ -1,0 +1,35 @@
+.logo {
+    width: 80px;
+}
+
+.cabecalho {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3rem;
+    padding-right: 3.8rem;
+}
+
+@media screen and (max-width:480px) {
+    .logo {
+        width: 50px;
+        margin-top: 0.5rem;
+    }
+
+    .cabecalho {
+        padding-right: 3rem;
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .logo {
+        width: 80px;
+        margin-top: 0.5rem;
+    }
+
+    .cabecalho {
+        padding-right: 3rem;
+    }
+}

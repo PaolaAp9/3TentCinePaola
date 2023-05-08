@@ -1,0 +1,21 @@
+.menu__lista {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+@media screen and (max-width:480px) {
+    .menu__lista {
+        display: flex;
+        flex-direction: column;
+        margin-right: 6rem;
+    }
+
+}
+@media screen and (max-width:360px) {
+    .menu__lista {
+        display: flex;
+        flex-direction: column;
+        margin-right: 6rem;
+    }
+}

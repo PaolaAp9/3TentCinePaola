@@ -1,0 +1,21 @@
+/*Centralização de texto*/
+.quem__somos {
+    text-align: center;
+    padding: 1rem;
+    padding-top: 1rem;
+}
+
+@media screen and (max-width:480px) {
+    .quem__somos {
+        padding: 0.5rem;
+        padding-top: 0.1rem;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .quem__somos {
+        padding: 1.5rem;
+    }
+
+}

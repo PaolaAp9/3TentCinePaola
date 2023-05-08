@@ -1,0 +1,7 @@
+/*fundo do mapa*/
+.fabricacao {
+    background: #8f8f8f;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}

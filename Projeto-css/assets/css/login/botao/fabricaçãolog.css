@@ -1,0 +1,49 @@
+.enviar {
+    background: #da6f39;
+    border: none;
+    border-radius: 100px;
+    padding: 1rem;
+    transition: all .1s ease-in-out;
+    color: #5f0909;
+    font-size: 1.5rem;
+    margin-left: 40rem;
+    margin-top: 1rem;
+}
+
+.enviar:hover {
+    background: #000000;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    transform: scale(1.2);
+}
+
+form label {
+    display: block;
+    font-size: 20px;
+    margin: 2rem 1rem 1rem;
+}
+
+@media screen and (max-width:480px) {
+    .enviar {
+        padding: 0.1rem;
+        font-size: 2rem;
+        margin-left:8.5rem;
+    }
+
+    form label {
+        margin: 1rem 1rem 1rem;
+    }
+
+}
+@media screen and (max-width:768px) {
+    .enviar {
+        padding: 0.1rem;
+        font-size: 2rem;
+        margin-left:8.5rem;
+    }
+
+    form label {
+        margin: 1rem 1rem 1rem;
+    }
+
+}

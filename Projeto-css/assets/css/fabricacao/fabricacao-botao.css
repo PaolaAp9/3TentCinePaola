@@ -1,0 +1,27 @@
+/*botão-assitir*/
+.fabricacao__botao {
+    background: #da6f39;
+    border: none;
+    border-radius: 100px;
+    padding: 1rem;
+    transition: all .1s ease-in-out;
+    color: #5f0909;
+    font-size: 1.5rem;
+    margin: 2rem 0;
+}
+
+.fabricacao__botao:hover {
+    background: #000000;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    transform: scale(1.2);
+}
+
+@media screen and (max-width:480px) {
+    .fabricacao__botao {
+        padding: 0.1rem;
+        font-size: 2rem;
+        margin: 1rem 0;
+    }
+
+}

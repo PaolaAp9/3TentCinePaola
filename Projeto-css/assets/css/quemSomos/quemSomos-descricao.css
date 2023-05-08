@@ -1,0 +1,35 @@
+/*Texto*/
+.quem-somos__descricao {
+    font-weight: 100;
+    font-size: 1.25rem;
+    color: #000000;
+    margin: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    font-size: 3rem;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    margin-top: 1rem;
+}
+h3 {
+    font-size: 1rem;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    margin-top: 1rem;
+}
+@media screen and (max-width:480px) {
+    .quem-somos__descricao {
+        font-size: 1rem;
+        margin: 0.8rem;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+    .quem-somos__descricao {
+        font-size: 1.25rem;
+    }
+
+}

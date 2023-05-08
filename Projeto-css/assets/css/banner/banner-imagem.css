@@ -1,0 +1,10 @@
+/*Cabeçario*/
+.banner__imagem {
+    width: 100%;
+}
+
+@media screen and (max-width:480px) {
+    .banner__imagem {
+        margin-top: 1rem;
+    }
+}

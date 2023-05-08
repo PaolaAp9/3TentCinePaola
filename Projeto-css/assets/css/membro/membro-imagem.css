@@ -1,0 +1,68 @@
+/*imagens-comedia/terror/romance*/
+.membro__imagem {
+    background-size: cover;
+    height: 300px;
+    background-position: center;
+    width: 300px;
+    background-repeat: no-repeat;
+    border-radius: 300%;
+}
+
+.membro__imagem--acao {
+    background-image: url('../../img/acao/AÇ1.png');
+}
+
+.membro__imagem--anime {
+    background-image: url('../../img/anime/AN1.png');
+}
+
+.membro__imagem--comedia {
+    background-image: url('../../img/comedia/C1.png');
+}
+
+.membro__imagem--desenho {
+    background-image: url('../../img/desenho/Des.png');
+}
+
+.membro__imagem--documentario {
+    background-image: url('../../img/documentario/Doc1.png');
+}
+
+.membro__imagem--ficcao {
+    background-image: url('../../img/ficcao/FC1.png');
+}
+
+.membro__imagem--terror {
+    background-image: url('../../img/terror/T1.png');
+}
+
+.membro__imagem--romance {
+    background-image: url('../../img/romance/R1.png');
+}
+
+.membro__imagem--planoind {
+    background-image: url('../../img/planoind.png');
+}
+
+.membro__imagem--planoamg {
+    background-image: url('../../img/planoamg.png');
+}
+
+.membro__imagem--planofam {
+    background-image: url('../../img/planofam.png');
+}
+.membro__imagem--QR {
+    background-image: url('../../img/QR.PNG');
+}
+@media screen and (max-width:480px) {
+    .membro__imagem {
+        height: 300px;
+        width: 300px;
+    }
+}
+@media screen and (max-width:360px) {
+    .membro__imagem {
+        height: 200px;
+        width: 200px;
+    }
+}

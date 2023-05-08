@@ -1,0 +1,73 @@
+/*Cor e tamanho dos itens acima*/
+.menu__link {
+    color: black;
+    margin-right: 1.25rem;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.menu__link.ativo {
+    color: rgb(228, 163, 25);
+    font-weight: bold;
+}
+
+.menu__link:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width:480px) {
+    .menu__link {
+        border-radius: 50px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        transition: all .1s ease-in-out;
+        color: #000000;
+    }
+
+    .menu__link.ativo {
+        color: rgb(0, 0, 0);
+        background-color: rgb(235, 204, 139);
+    }
+
+    .menu__link:hover {
+        cursor: pointer;
+        transform: scale(1.2);
+        background-color: #d1cbcb;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .menu__link {
+        font-size: 25px;
+    }
+    .menu__link.ativo {
+        color: rgb(0, 0, 0);
+        background-color: rgb(235, 204, 139);
+    }
+
+    .menu__link:hover {
+        cursor: pointer;
+        transform: scale(1.2);
+        background-color: #d1cbcb;
+    }
+}
+@media screen and (max-width:360px) {
+    .menu__link {
+        border-radius: 50px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        transition: all .1s ease-in-out;
+        color: #000000;
+    }
+
+    .menu__link.ativo {
+        color: rgb(0, 0, 0);
+        background-color: rgb(235, 204, 139);
+    }
+
+    .menu__link:hover {
+        cursor: pointer;
+        transform: scale(1.2);
+        background-color: #d1cbcb;
+    }
+}
